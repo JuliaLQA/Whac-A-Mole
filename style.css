@@ -1,0 +1,44 @@
+* {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(120, 208, 120);
+}
+
+.board {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(112, 31, 31, 0.621);
+}
+
+.cell {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.mole {
+    width: 200px;
+    height: 200px;
+    background-image: url("mole.png");
+    background-size: contain;
+}
+
+.start {
+	position: relative;
+	top: 30px;
+    font-size: 30px;
+	display: flex;
+	margin: 0px auto 50px auto;
+}
